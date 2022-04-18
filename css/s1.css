@@ -1,0 +1,241 @@
+/* 影视资料 */
+.title {
+    width      : 100%;
+    height     : 60px;
+    line-height: 60px;
+    font-size  : 34px;
+    color      : #000;
+    text-align : center;
+}
+
+.w .yingshiziliao {
+    width: 100%;
+}
+
+.w .yingshiziliao li {
+    float           : left;
+    margin          : 10px 10px 0 0;
+    width           : 292px;
+    height          : 60px;
+    line-height     : 30px;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.w .yingshiziliao li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.w .yingshiziliao li a {
+    display    : flex;
+    flex-flow  : column nowrap;
+    align-items: center;
+    font-size  : 24px;
+    color      : #000;
+}
+
+.w .yingshiziliao li a span:nth-child(2) {
+    align-self   : flex-start;
+    font-size    : 16px;
+    width        : 100%;
+    white-space  : nowrap;
+    overflow     : hidden;
+    text-overflow: ellipsis;
+}
+
+/* 网盘搜索 */
+.title {
+    width      : 100%;
+    height     : 60px;
+    line-height: 60px;
+    font-size  : 34px;
+    color      : #000;
+    text-align : center;
+}
+
+.w .wangpansousuo {
+    width: 100%;
+}
+
+.w .wangpansousuo li {
+    float           : left;
+    margin          : 10px 10px 0 0;
+    width           : 292px;
+    height          : 60px;
+    line-height     : 30px;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.w .wangpansousuo li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.w .wangpansousuo li a {
+    display    : flex;
+    flex-flow  : column nowrap;
+    align-items: center;
+    font-size  : 24px;
+    color      : #000;
+}
+
+.w .wangpansousuo li a span:nth-child(2) {
+    align-self   : flex-start;
+    font-size    : 16px;
+    width        : 100%;
+    white-space  : nowrap;
+    overflow     : hidden;
+    text-overflow: ellipsis;
+}
+
+/* 综合聚合搜索 */
+.title {
+    width      : 100%;
+    height     : 60px;
+    line-height: 60px;
+    font-size  : 34px;
+    color      : #000;
+    text-align : center;
+}
+
+.w .zonghejuhesousuo {
+    width: 100%;
+}
+
+.w .zonghejuhesousuo li {
+    float           : left;
+    margin          : 10px 10px 0 0;
+    width           : 292px;
+    height          : 60px;
+    line-height     : 30px;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.w .zonghejuhesousuo li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.w .zonghejuhesousuo li a {
+    display    : flex;
+    flex-flow  : column nowrap;
+    align-items: center;
+    font-size  : 24px;
+    color      : #000;
+}
+
+.w .zonghejuhesousuo li a span:nth-child(2) {
+    align-self   : flex-start;
+    font-size    : 16px;
+    width        : 100%;
+    white-space  : nowrap;
+    overflow     : hidden;
+    text-overflow: ellipsis;
+}
+
+/* 综合在线下载 */
+.title {
+    width      : 100%;
+    height     : 60px;
+    line-height: 60px;
+    font-size  : 34px;
+    color      : #000;
+    text-align : center;
+}
+
+.w .zonghejuhesousuo {
+    width: 100%;
+}
+
+.w .zonghejuhesousuo li {
+    float           : left;
+    margin          : 10px 10px 0 0;
+    width           : 292px;
+    height          : 60px;
+    line-height     : 30px;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.w .zonghejuhesousuo li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.w .zonghejuhesousuo li a {
+    display    : flex;
+    flex-flow  : column nowrap;
+    align-items: center;
+    font-size  : 24px;
+    color      : #000;
+}
+
+.w .zonghejuhesousuo li a span:nth-child(2) {
+    align-self   : flex-start;
+    font-size    : 16px;
+    width        : 100%;
+    white-space  : nowrap;
+    overflow     : hidden;
+    text-overflow: ellipsis;
+}
+
+/* service通用 */
+ul {
+    margin-bottom: 30px;
+}
+
+.title {
+    width      : 100%;
+    height     : 60px;
+    line-height: 60px;
+    font-size  : 34px;
+    color      : #000;
+    text-align : center;
+}
+
+.w .service {
+    width: 100%;
+}
+
+.w .service>li {
+    float              : left;
+    margin             : 10px 10px 0 0;
+    width              : 292px;
+    /* height          : 60px; */
+    line-height        : 30px;
+    background-color   : rgba(0, 0, 0, .2);
+}
+
+.w .service>li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.w .service>li a {
+    display    : flex;
+    flex-flow  : column nowrap;
+    align-items: center;
+    font-size  : 24px;
+    color      : #000;
+}
+
+.w .service>li a span:nth-child(n+2) {
+    align-self   : flex-start;
+    font-size    : 16px;
+    width        : 100%;
+    white-space  : nowrap;
+    overflow     : hidden;
+    text-overflow: ellipsis;
+}
+
+.w .service li .backup {
+    display    : flex;
+    flex-flow  : column nowrap;
+    align-items: center;
+}
+
+.w .service li .backup .bu {
+    font-size: 20px;
+}
+
+.w .service li .backup ul li {
+    display    : flex;
+    flex-flow  : column nowrap;
+    align-items: center;
+    font-size  : 16px;
+    color      : #000;
+}
