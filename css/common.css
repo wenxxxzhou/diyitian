@@ -7,6 +7,24 @@
 
 h1,
 h2,
-h5 {
+h5,
+.footer {
     cursor: default;
+}
+
+.footer {
+    position: relative;
+    width   : 1200px;
+    margin  : 15px auto;
+}
+
+.footer ul {
+    position : absolute;
+    left     : 50%;
+    transform: translateX(-50%);
+}
+
+.footer ul li {
+    float : left;
+    margin: 0 20px;
 }
