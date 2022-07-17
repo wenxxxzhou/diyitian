@@ -14,11 +14,27 @@
   transform: translateX(-50%);
   background-color: rgba(0, 0, 0, 0.6);
 }
+.search .nav {
+  display: flex;
+}
+.search .nav div {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #ff6000;
+  width: 33.33%;
+  cursor: pointer;
+  font-size: 28px;
+  border-right: 1px solid red;
+  text-align: center;
+}
+.search .nav div:nth-child(3) {
+  border-right: none;
+}
 .search .s {
+  display: none;
   width: 100%;
 }
 .search .s li {
-  float: right;
+  float: left;
   width: 200px;
   height: 20px;
   text-align: center;
@@ -93,4 +109,24 @@
 .content1 .backup-content .backup li a {
   font-size: 14px;
   text-decoration: underline;
+}
+@media screen and (max-width: 767px) {
+  .container {
+    width: 100%;
+  }
+  .container .h2 {
+    width: 100%;
+  }
+  .container article ul li {
+    width: 40%;
+  }
+  .container article ul li section h5 {
+    width: 100%;
+  }
+  .container article ul li section ul li {
+    width: 100%;
+  }
+  .container ul li {
+    width: 100%;
+  }
 }

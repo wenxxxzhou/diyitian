@@ -17,11 +17,35 @@
     transform       : translateX(-50%);
     background-color: rgba(0, 0, 0, .6);
 
+    // 顶部导航栏
+    // .search-btn {}
+
+    .nav {
+        display: flex;
+
+        div {
+            background-color: rgba(0, 0, 0, .1);
+            color           : #ff6000;
+            width           : 33.33%;
+            cursor          : pointer;
+            font-size       : 28px;
+            border-right    : 1px solid red;
+            text-align      : center;
+
+            // 为什么不写在父元素？？？
+            &:nth-child(3) {
+                border-right: none;
+            }
+        }
+
+    }
+
     .s {
-        width: 100%;
+        display: none;
+        width  : 100%;
 
         li {
-            float     : right;
+            float     : left;
             width     : 200px;
             height    : 20px;
             text-align: center;
@@ -129,6 +153,43 @@
         .backup li a {
             font-size      : 14px;
             text-decoration: underline;
+        }
+    }
+}
+
+// 新增的响应式尝试
+@media screen and (max-width : 767px) {
+    .container {
+        width: 100%;
+
+        .h2 {
+            width: 100%;
+        }
+
+        article {
+            ul {
+                li {
+                    width: 40%;
+
+                    section {
+                        h5 {
+                            width: 100%;
+                        }
+
+                        ul {
+                            li {
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        ul {
+            li {
+                width: 100%;
+            }
         }
     }
 }

@@ -18,6 +18,12 @@ h5,
     margin  : 15px auto;
 }
 
+@media screen and (max-width : 767px) {
+    .footer {
+        width: 100%;
+    }
+}
+
 .footer ul {
     position : absolute;
     left     : 50%;
