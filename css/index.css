@@ -30,9 +30,6 @@
 .search .nav div:nth-child(3) {
   border-right: none;
 }
-.search .nav div:hover {
-  background-color: rgba(0, 0, 0, 0.6);
-}
 .search .s {
   display: none;
   width: 100%;
