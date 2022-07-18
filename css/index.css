@@ -37,11 +37,11 @@
 .search .s li {
   float: right;
   width: 25%;
-  height: 20px;
+  height: 34px;
   text-align: center;
 }
 .search .s li a {
-  font-size: 14px;
+  font-size: 17px;
   color: #fff;
   text-align: center;
 }
