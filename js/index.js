@@ -7,9 +7,11 @@ window.addEventListener('load', function () {
     searchBtn.addEventListener('click', function () {
         if (flag == 0) {
             s.style.display = 'block';
+            this.style.color = 'pink';
             flag++;
         } else {
             s.style.display = 'none';
+            this.style.color = '#ff6000';
             flag = 0;
         }
     });
@@ -21,7 +23,8 @@ window.addEventListener('load', function () {
         animate(window, 0);
     });
     goBottomBtn.addEventListener('click', function () {
-        animate(window, document.documentElement.scrollHeight);
+        // 注意：整个页面的高度 - 窗口高度
+        animate(window, document.documentElement.scrollHeight - window.innerHeight);
     });
 
     // 先封装在一个函数里

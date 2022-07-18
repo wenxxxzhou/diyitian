@@ -21,7 +21,8 @@
     // .search-btn {}
 
     .nav {
-        display: flex;
+        display    : flex;
+        user-select: none;
 
         div {
             background-color: rgba(0, 0, 0, .1);
@@ -36,6 +37,10 @@
             &:nth-child(3) {
                 border-right: none;
             }
+
+            &:hover {
+                background-color: rgba(0, 0, 0, .6);
+            }
         }
 
     }
@@ -45,14 +50,15 @@
         width  : 100%;
 
         li {
-            float     : left;
-            width     : 200px;
+            float     : right;
+            width     : 25%;
             height    : 20px;
             text-align: center;
 
             a {
-                font-size: 14px;
-                color    : #fff;
+                font-size : 14px;
+                color     : #fff;
+                text-align: center;
 
                 &:hover {
                     color: #ff6000;
@@ -150,9 +156,13 @@
             color     : #ff6000;
         }
 
-        .backup li a {
-            font-size      : 14px;
-            text-decoration: underline;
+        .backup li {
+            overflow: hidden;
+
+            a {
+                font-size      : 14px;
+                text-decoration: underline;
+            }
         }
     }
 }
@@ -161,6 +171,14 @@
 @media screen and (max-width : 767px) {
     .container {
         width: 100%;
+
+
+        .s {
+            li {
+                width: 50%;
+            }
+        }
+
 
         .h2 {
             width: 100%;

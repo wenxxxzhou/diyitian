@@ -16,6 +16,7 @@
 }
 .search .nav {
   display: flex;
+  user-select: none;
 }
 .search .nav div {
   background-color: rgba(0, 0, 0, 0.1);
@@ -29,19 +30,23 @@
 .search .nav div:nth-child(3) {
   border-right: none;
 }
+.search .nav div:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
 .search .s {
   display: none;
   width: 100%;
 }
 .search .s li {
-  float: left;
-  width: 200px;
+  float: right;
+  width: 25%;
   height: 20px;
   text-align: center;
 }
 .search .s li a {
   font-size: 14px;
   color: #fff;
+  text-align: center;
 }
 .search .s li a:hover {
   color: #ff6000;
@@ -106,6 +111,9 @@
   margin-top: 15px;
   color: #ff6000;
 }
+.content1 .backup-content .backup li {
+  overflow: hidden;
+}
 .content1 .backup-content .backup li a {
   font-size: 14px;
   text-decoration: underline;
@@ -113,6 +121,9 @@
 @media screen and (max-width: 767px) {
   .container {
     width: 100%;
+  }
+  .container .s li {
+    width: 50%;
   }
   .container .h2 {
     width: 100%;
